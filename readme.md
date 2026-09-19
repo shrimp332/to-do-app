@@ -17,4 +17,6 @@ docker build -t todo-app .
 docker run --rm -p 80:8080 todo-app
 ```
 
-The site is served at `/` and the api at `/api`, both on port 80
+```bash
+docker run --rm -e PORT=5000 -p 80:5000 todo-app
+```
