@@ -1,0 +1,6 @@
+services:
+  todo-app:
+    image: shrimp332/todo-app:latest
+    environment:
+      - PORT=8080
+    restart: unless-stopped
