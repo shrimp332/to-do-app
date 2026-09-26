@@ -14,9 +14,5 @@ Website built with vanilla javascript, served by the same flask app
 **Build & Run**
 ```bash
 docker build -t todo-app .
-docker run --rm -p 80:8080 todo-app
-```
-
-```bash
 docker run --rm -e PORT=5000 -p 80:5000 todo-app
 ```
